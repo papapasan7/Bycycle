@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+
+/*@font-face {
+    font-family: 'lato';
+    src: url('../fonts/lato-bold-webfont.woff2') format('woff2'),
+         url('../fonts/lato-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'lato';
+    src: url('../fonts/lato-italic-webfont.woff2') format('woff2'),
+         url('../fonts/lato-italic-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: 'lato';
+    src: url('../fonts/lato-light-webfont.woff2') format('woff2'),
+         url('../fonts/lato-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'lato';
+    src: url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+   
+    font: 400 16px/1.5 Lato, Arial, Tahoma, sans-serif;
+    color: #848789;
+}
+
+a {
+    text-decoration: none;
+    color: #f00;
+}
+
+ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #000;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input {
+    outline: none;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.header .banner{
+    width: 100%;
+}
+
+.banner{
+    background: url(../images/Banner.jpg) no-repeat 50% 0;
+    background-size: cover;
+}
+
+.header .banner{
+    min-height: 100vh;
+}
+
+.after-header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 120px 0;
+}
+
+.after-header img{
+    padding-bottom: 35px;
+}
+
+.title-22{
+    margin-bottom: 35px;
+    color: #353738;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.after-header p{
+max-width: 1080px;
+text-align: center;
+font-size: 18xp;
+line-height: 34px;
+
+}
